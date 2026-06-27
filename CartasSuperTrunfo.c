@@ -95,9 +95,9 @@ int main() {
   printf("Codigo da Carta: %s\n", Codigo1);
   printf("Nome da Cidade: %s\n", Nome1);
   printf("Populacao: %d\n", Populacao1);
-  printf("Area em Km²: %.2f\n", Area1);
+  printf("Area em Km²: %.2f km²\n", Area1);
   printf("Numero de Pontos_Turisticos: %d\n", Pontos_turisticos1);
-  printf("Pib: %.2f", Pib1);
+  printf("Pib: %.2f Bilhoes de Reais", Pib1);
 
   printf("\n");
   //CARTAS CADASTRADAS (CARTA 2)
@@ -107,9 +107,9 @@ int main() {
   printf("Codigo da Carta: %s\n", Codigo2);
   printf("Nome da Cidade: %s\n", Nome2);
   printf("Populacao: %d\n", Populacao2);
-  printf("Area em Km²: %.2f\n", Area2);
+  printf("Area em Km²: %.2f km²\n", Area2);
   printf("Numeros de Pontos_Turisticos: %d\n", Pontos_turisticos2);
-  printf("Pib: %.2f", Pib2);
+  printf("Pib: %.2f Bilhoes de Reais\n", Pib2);
   
   
      return 0;
