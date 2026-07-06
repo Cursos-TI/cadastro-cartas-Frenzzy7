@@ -228,6 +228,8 @@ int main() {
         printf("Ambas cartas tem a mesma Densidade Populacional: %.2f\n", Densidade_Populacional1);
       }
       break;
+      default:
+        printf("Opcao digitada invalida!\n");
       }
       
          
