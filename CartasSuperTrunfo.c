@@ -157,11 +157,11 @@ int main() {
         if (Populacao1 > Populacao2)
         {
             printf("A Cidade %s VENCEU!!\n", Nome1);
-            printf("Comparacao: %s (%lu) VS %s (%lu)", Nome1, Populacao1, Nome2, Populacao2);
+            printf("Comparacao: %s (%lu) VS %s (%lu)\n", Nome1, Populacao1, Nome2, Populacao2);
         } else if (Populacao2 > Populacao1)
         {
             printf("A cidade %s VENCEU!!\n", Nome2);
-            printf("Comparacao: %s (%lu) VS %s (%lu)", Nome2, Populacao2, Nome1, Populacao1);
+            printf("Comparacao: %s (%lu) VS %s (%lu)\n", Nome2, Populacao2, Nome1, Populacao1);
         } else
         {
           printf("EMPATE.\n");
@@ -191,7 +191,7 @@ int main() {
       } else if (Pib2 > Pib1)
       {
         printf("A cidade %s VENCEU!!\n", Nome2);
-        printf("Comparacao: %s (%.2f) VS %s (.%2f)\n", Nome2, Pib2, Nome1, Pib1);
+        printf("Comparacao: %s (%.2f) VS %s (%.2f)\n", Nome2, Pib2, Nome1, Pib1);
       } else
       {
         printf("EMPATE.\n");
@@ -206,7 +206,7 @@ int main() {
       } else if (Pontos_turisticos2 > Pontos_turisticos1)
       {
         printf("A cidade %s VENCEU!!\n", Nome2);
-        printf("Comparacao: %s (%d) VS %s (%d)\n", Nome2 , Pontos_turisticos2, Nome1 , Pontos_turisticos2);
+        printf("Comparacao: %s (%d) VS %s (%d)\n", Nome2 , Pontos_turisticos2, Nome1 , Pontos_turisticos1);
       } else
       {
         printf("EMPATE.\n");
