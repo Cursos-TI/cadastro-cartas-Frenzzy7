@@ -151,7 +151,7 @@ int main() {
         default: printf("Invalido\n"); break;
     }
 
-    // Exibição do valor (corrigido: ternário para garantir positivo se for densidade)
+    // Exibição do valor 
     printf("%s: %.2f\n", nome1, (opcao1 == 5) ? -valor1_c1 : valor1_c1);
     printf("%s: %.2f\n", nome2, (opcao1 == 5) ? -valor1_c2 : valor1_c2);
     // Vencedor Atributo 1
@@ -168,7 +168,7 @@ int main() {
         default: printf("Invalido\n"); break;
     }
 
-    // Exibição do valor (corrigido: ternário para garantir positivo se for densidade)
+    // Exibição do valor 
     printf("%s: %.2f\n", nome1, (opcao2 == 5) ? -valor2_c1 : valor2_c1);
     printf("%s: %.2f\n", nome2, (opcao2 == 5) ? -valor2_c2 : valor2_c2);
     // Vencedor Atributo 2
